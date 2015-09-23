@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS `siglatempo`;
+
+CREATE TABLE IF NOT EXISTS `siglatempo`(
+	id INT(11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+	sigla VARCHAR(3),
+	description TEXT
+);
